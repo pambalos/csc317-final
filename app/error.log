@@ -1,0 +1,325 @@
+[17-May-2020 15:14:00 America/Los_Angeles] PHP Warning:  mysqli_connect(): The server requested authentication method unknown to the client [caching_sha2_password] in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 45
+[17-May-2020 15:14:00 America/Los_Angeles] PHP Warning:  mysqli_connect(): (HY000/2054): The server requested authentication method unknown to the client in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 45
+[17-May-2020 15:15:02 America/Los_Angeles] PHP Warning:  mysqli_connect(): The server requested authentication method unknown to the client [caching_sha2_password] in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 45
+[17-May-2020 15:15:02 America/Los_Angeles] PHP Warning:  mysqli_connect(): (HY000/2054): The server requested authentication method unknown to the client in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 45
+[17-May-2020 15:23:00 America/Los_Angeles] PHP Warning:  mysqli_connect(): The server requested authentication method unknown to the client [caching_sha2_password] in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 45
+[17-May-2020 15:23:00 America/Los_Angeles] PHP Warning:  mysqli_connect(): (HY000/2054): The server requested authentication method unknown to the client in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 45
+[17-May-2020 15:26:07 America/Los_Angeles] PHP Warning:  mysqli_connect(): The server requested authentication method unknown to the client [caching_sha2_password] in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 45
+[17-May-2020 15:26:07 America/Los_Angeles] PHP Warning:  mysqli_connect(): (HY000/2054): The server requested authentication method unknown to the client in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 45
+[17-May-2020 15:36:35 America/Los_Angeles] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'web'@'localhost' to database 'final' in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 45
+[17-May-2020 15:38:45 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 14
+[17-May-2020 15:38:45 America/Los_Angeles] PHP Notice:  Undefined index: width in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 16
+[17-May-2020 15:38:45 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 21
+[17-May-2020 15:39:22 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 14
+[17-May-2020 15:39:22 America/Los_Angeles] PHP Notice:  Undefined index: width in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 16
+[17-May-2020 15:39:22 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 21
+[17-May-2020 15:40:08 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 21
+[17-May-2020 15:44:30 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 21
+[17-May-2020 15:44:30 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:44:53 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 21
+[17-May-2020 15:44:53 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:45:33 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 14
+[17-May-2020 15:45:33 America/Los_Angeles] PHP Notice:  Undefined index: width in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 16
+[17-May-2020 15:45:33 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 21
+[17-May-2020 15:45:33 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:45:34 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 14
+[17-May-2020 15:45:34 America/Los_Angeles] PHP Notice:  Undefined index: width in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 16
+[17-May-2020 15:45:34 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 21
+[17-May-2020 15:45:34 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:45:35 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 14
+[17-May-2020 15:45:35 America/Los_Angeles] PHP Notice:  Undefined index: width in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 16
+[17-May-2020 15:45:35 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 21
+[17-May-2020 15:45:35 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:45:36 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 14
+[17-May-2020 15:45:36 America/Los_Angeles] PHP Notice:  Undefined index: width in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 16
+[17-May-2020 15:45:36 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 21
+[17-May-2020 15:45:36 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:45:37 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 14
+[17-May-2020 15:45:37 America/Los_Angeles] PHP Notice:  Undefined index: width in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 16
+[17-May-2020 15:45:37 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 21
+[17-May-2020 15:45:37 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:45:54 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 14
+[17-May-2020 15:45:54 America/Los_Angeles] PHP Notice:  Undefined index: width in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 16
+[17-May-2020 15:45:54 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 21
+[17-May-2020 15:45:54 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:46:13 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 14
+[17-May-2020 15:46:13 America/Los_Angeles] PHP Notice:  Undefined index: width in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 16
+[17-May-2020 15:46:13 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 21
+[17-May-2020 15:46:13 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:46:14 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 14
+[17-May-2020 15:46:14 America/Los_Angeles] PHP Notice:  Undefined index: width in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 16
+[17-May-2020 15:46:14 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 21
+[17-May-2020 15:46:14 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:46:15 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 14
+[17-May-2020 15:46:15 America/Los_Angeles] PHP Notice:  Undefined index: width in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 16
+[17-May-2020 15:46:15 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 21
+[17-May-2020 15:46:15 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:46:18 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 14
+[17-May-2020 15:46:18 America/Los_Angeles] PHP Notice:  Undefined index: width in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 16
+[17-May-2020 15:46:18 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 21
+[17-May-2020 15:46:18 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:46:24 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 14
+[17-May-2020 15:46:24 America/Los_Angeles] PHP Notice:  Undefined index: width in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 16
+[17-May-2020 15:46:24 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 21
+[17-May-2020 15:46:24 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:46:25 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 14
+[17-May-2020 15:46:25 America/Los_Angeles] PHP Notice:  Undefined index: width in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 16
+[17-May-2020 15:46:25 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 21
+[17-May-2020 15:46:25 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:46:26 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 14
+[17-May-2020 15:46:26 America/Los_Angeles] PHP Notice:  Undefined index: width in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 16
+[17-May-2020 15:46:26 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 21
+[17-May-2020 15:46:26 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:46:27 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 14
+[17-May-2020 15:46:27 America/Los_Angeles] PHP Notice:  Undefined index: width in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 16
+[17-May-2020 15:46:27 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 21
+[17-May-2020 15:46:27 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:46:28 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 14
+[17-May-2020 15:46:28 America/Los_Angeles] PHP Notice:  Undefined index: width in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 16
+[17-May-2020 15:46:28 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 21
+[17-May-2020 15:46:28 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:46:29 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 14
+[17-May-2020 15:46:29 America/Los_Angeles] PHP Notice:  Undefined index: width in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 16
+[17-May-2020 15:46:29 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 21
+[17-May-2020 15:46:29 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:46:30 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 14
+[17-May-2020 15:46:30 America/Los_Angeles] PHP Notice:  Undefined index: width in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 16
+[17-May-2020 15:46:30 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 21
+[17-May-2020 15:46:30 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:46:31 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 14
+[17-May-2020 15:46:31 America/Los_Angeles] PHP Notice:  Undefined index: width in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 16
+[17-May-2020 15:46:31 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 21
+[17-May-2020 15:46:31 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:46:32 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 14
+[17-May-2020 15:46:32 America/Los_Angeles] PHP Notice:  Undefined index: width in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 16
+[17-May-2020 15:46:32 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 21
+[17-May-2020 15:46:32 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:46:32 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 14
+[17-May-2020 15:46:32 America/Los_Angeles] PHP Notice:  Undefined index: width in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 16
+[17-May-2020 15:46:32 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 21
+[17-May-2020 15:46:32 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:46:33 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 14
+[17-May-2020 15:46:33 America/Los_Angeles] PHP Notice:  Undefined index: width in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 16
+[17-May-2020 15:46:33 America/Los_Angeles] PHP Notice:  Undefined index: name in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 21
+[17-May-2020 15:46:33 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:46:37 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:46:59 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:47:00 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:47:01 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:47:01 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:47:02 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:47:03 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:47:03 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:47:04 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:47:05 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:47:06 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:47:06 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:47:07 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:47:08 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:47:08 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:47:13 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:47:13 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:47:14 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:47:15 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:47:16 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:47:17 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:47:18 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:47:19 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:47:19 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:47:20 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:47:21 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:47:21 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:47:22 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:47:23 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:47:25 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:47:26 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:47:29 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:47:30 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:47:33 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 15:47:35 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 23
+[17-May-2020 16:02:56 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 19
+[17-May-2020 16:03:24 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 19
+[17-May-2020 16:04:17 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 19
+[17-May-2020 17:16:19 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined function sqlite_num_rows() in /Applications/317final/apache2/htdocs/csc317-final/register.php:24
+Stack trace:
+#0 {main}
+  thrown in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 24
+[17-May-2020 17:16:46 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined function sqlite_num_rows() in /Applications/317final/apache2/htdocs/csc317-final/register.php:24
+Stack trace:
+#0 {main}
+  thrown in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 24
+[17-May-2020 17:16:49 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined function sqlite_num_rows() in /Applications/317final/apache2/htdocs/csc317-final/register.php:24
+Stack trace:
+#0 {main}
+  thrown in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 24
+[17-May-2020 17:16:50 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined function sqlite_num_rows() in /Applications/317final/apache2/htdocs/csc317-final/register.php:24
+Stack trace:
+#0 {main}
+  thrown in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 24
+[17-May-2020 17:16:51 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined function sqlite_num_rows() in /Applications/317final/apache2/htdocs/csc317-final/register.php:24
+Stack trace:
+#0 {main}
+  thrown in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 24
+[17-May-2020 17:16:52 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined function sqlite_num_rows() in /Applications/317final/apache2/htdocs/csc317-final/register.php:24
+Stack trace:
+#0 {main}
+  thrown in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 24
+[17-May-2020 17:17:00 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined function sqlite_num_rows() in /Applications/317final/apache2/htdocs/csc317-final/register.php:24
+Stack trace:
+#0 {main}
+  thrown in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 24
+[17-May-2020 17:17:13 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined function sqlite_num_rows() in /Applications/317final/apache2/htdocs/csc317-final/register.php:24
+Stack trace:
+#0 {main}
+  thrown in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 24
+[17-May-2020 17:17:23 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined function sqlite_num_rows() in /Applications/317final/apache2/htdocs/csc317-final/register.php:24
+Stack trace:
+#0 {main}
+  thrown in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 24
+[17-May-2020 17:17:53 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined function sqlite_num_rows() in /Applications/317final/apache2/htdocs/csc317-final/register.php:24
+Stack trace:
+#0 {main}
+  thrown in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 24
+[17-May-2020 17:17:58 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined function sqlite_num_rows() in /Applications/317final/apache2/htdocs/csc317-final/register.php:24
+Stack trace:
+#0 {main}
+  thrown in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 24
+[17-May-2020 17:18:00 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined function sqlite_num_rows() in /Applications/317final/apache2/htdocs/csc317-final/register.php:24
+Stack trace:
+#0 {main}
+  thrown in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 24
+[17-May-2020 17:18:00 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined function sqlite_num_rows() in /Applications/317final/apache2/htdocs/csc317-final/register.php:24
+Stack trace:
+#0 {main}
+  thrown in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 24
+[17-May-2020 17:18:01 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined function sqlite_num_rows() in /Applications/317final/apache2/htdocs/csc317-final/register.php:24
+Stack trace:
+#0 {main}
+  thrown in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 24
+[17-May-2020 17:18:01 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined function sqlite_num_rows() in /Applications/317final/apache2/htdocs/csc317-final/register.php:24
+Stack trace:
+#0 {main}
+  thrown in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 24
+[17-May-2020 17:18:02 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined function sqlite_num_rows() in /Applications/317final/apache2/htdocs/csc317-final/register.php:24
+Stack trace:
+#0 {main}
+  thrown in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 24
+[17-May-2020 17:18:03 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined function sqlite_num_rows() in /Applications/317final/apache2/htdocs/csc317-final/register.php:24
+Stack trace:
+#0 {main}
+  thrown in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 24
+[17-May-2020 17:18:03 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined function sqlite_num_rows() in /Applications/317final/apache2/htdocs/csc317-final/register.php:24
+Stack trace:
+#0 {main}
+  thrown in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 24
+[17-May-2020 17:18:04 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined function sqlite_num_rows() in /Applications/317final/apache2/htdocs/csc317-final/register.php:24
+Stack trace:
+#0 {main}
+  thrown in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 24
+[17-May-2020 17:18:04 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined function sqlite_num_rows() in /Applications/317final/apache2/htdocs/csc317-final/register.php:24
+Stack trace:
+#0 {main}
+  thrown in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 24
+[17-May-2020 17:18:05 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined function sqlite_num_rows() in /Applications/317final/apache2/htdocs/csc317-final/register.php:24
+Stack trace:
+#0 {main}
+  thrown in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 24
+[17-May-2020 17:18:05 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined function sqlite_num_rows() in /Applications/317final/apache2/htdocs/csc317-final/register.php:24
+Stack trace:
+#0 {main}
+  thrown in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 24
+[17-May-2020 17:18:06 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined function sqlite_num_rows() in /Applications/317final/apache2/htdocs/csc317-final/register.php:24
+Stack trace:
+#0 {main}
+  thrown in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 24
+[17-May-2020 17:18:06 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined function sqlite_num_rows() in /Applications/317final/apache2/htdocs/csc317-final/register.php:24
+Stack trace:
+#0 {main}
+  thrown in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 24
+[17-May-2020 17:18:07 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined function sqlite_num_rows() in /Applications/317final/apache2/htdocs/csc317-final/register.php:24
+Stack trace:
+#0 {main}
+  thrown in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 24
+[17-May-2020 17:18:08 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined function sqlite_num_rows() in /Applications/317final/apache2/htdocs/csc317-final/register.php:24
+Stack trace:
+#0 {main}
+  thrown in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 24
+[17-May-2020 17:18:08 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined function sqlite_num_rows() in /Applications/317final/apache2/htdocs/csc317-final/register.php:24
+Stack trace:
+#0 {main}
+  thrown in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 24
+[17-May-2020 17:18:09 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to undefined function sqlite_num_rows() in /Applications/317final/apache2/htdocs/csc317-final/register.php:24
+Stack trace:
+#0 {main}
+  thrown in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 24
+[17-May-2020 19:17:49 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 70
+[17-May-2020 19:17:49 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 51
+[17-May-2020 19:18:47 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 70
+[17-May-2020 19:18:47 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 51
+[17-May-2020 19:18:53 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 70
+[17-May-2020 19:18:53 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 52
+[17-May-2020 19:18:56 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 70
+[17-May-2020 19:18:56 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 52
+[17-May-2020 19:18:57 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 70
+[17-May-2020 19:18:57 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 52
+[17-May-2020 19:18:58 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 70
+[17-May-2020 19:18:58 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 52
+[17-May-2020 19:18:58 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 70
+[17-May-2020 19:18:58 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 52
+[17-May-2020 19:18:59 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 70
+[17-May-2020 19:18:59 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 52
+[17-May-2020 19:19:15 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 70
+[17-May-2020 19:19:15 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 52
+[17-May-2020 19:19:35 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 70
+[17-May-2020 19:19:35 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 52
+[17-May-2020 19:19:51 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 70
+[17-May-2020 19:19:51 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 52
+[17-May-2020 19:19:53 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 70
+[17-May-2020 19:19:53 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 52
+[17-May-2020 19:19:54 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 70
+[17-May-2020 19:19:54 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 52
+[17-May-2020 19:19:55 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 70
+[17-May-2020 19:19:55 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 52
+[17-May-2020 19:23:26 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 70
+[17-May-2020 19:23:26 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 52
+[17-May-2020 19:23:28 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 70
+[17-May-2020 19:23:28 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 52
+[17-May-2020 19:23:29 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 70
+[17-May-2020 19:23:29 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 52
+[17-May-2020 19:24:30 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 70
+[17-May-2020 19:24:30 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 52
+[17-May-2020 19:25:04 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 70
+[17-May-2020 19:25:04 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 52
+[17-May-2020 21:25:55 America/Los_Angeles] PHP Notice:  Array to string conversion in /Applications/317final/apache2/htdocs/csc317-final/line.php on line 12
+[17-May-2020 21:33:58 America/Los_Angeles] PHP Notice:  Undefined index: l0 in /Applications/317final/apache2/htdocs/csc317-final/line.php on line 13
+[17-May-2020 21:34:16 America/Los_Angeles] PHP Notice:  Undefined index: l0 in /Applications/317final/apache2/htdocs/csc317-final/line.php on line 13
+[17-May-2020 21:34:30 America/Los_Angeles] PHP Notice:  Undefined index: l0 in /Applications/317final/apache2/htdocs/csc317-final/line.php on line 13
+[17-May-2020 21:34:33 America/Los_Angeles] PHP Notice:  Undefined index: l0 in /Applications/317final/apache2/htdocs/csc317-final/line.php on line 13
+[17-May-2020 21:34:36 America/Los_Angeles] PHP Notice:  Undefined index: l0 in /Applications/317final/apache2/htdocs/csc317-final/line.php on line 13
+[17-May-2020 21:43:17 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 88
+[17-May-2020 21:43:17 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 52
+[17-May-2020 21:45:14 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 88
+[17-May-2020 21:45:14 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 52
+[17-May-2020 21:45:58 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 88
+[17-May-2020 21:45:58 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/register.php on line 52
+[17-May-2020 21:47:06 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 88
+[17-May-2020 21:47:15 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 88
+[17-May-2020 21:47:25 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 88
+[17-May-2020 22:07:24 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 94
+[17-May-2020 22:07:39 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 94
+[17-May-2020 22:08:02 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 94
+[17-May-2020 22:09:15 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 94
+[17-May-2020 22:19:10 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 94
+[17-May-2020 22:20:19 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 94
+[17-May-2020 22:21:11 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 94
+[17-May-2020 22:21:16 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 94
+[17-May-2020 22:21:18 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 94
+[17-May-2020 22:21:19 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 94
+[17-May-2020 22:21:20 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 94
+[17-May-2020 22:21:29 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 94
+[17-May-2020 22:21:33 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/csc317-final/lib/common.php on line 94
+[17-May-2020 23:14:51 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/app/lib/common.php on line 94
+[17-May-2020 23:16:40 America/Los_Angeles] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /Applications/317final/apache2/htdocs/app/register.php on line 14
+[17-May-2020 23:16:40 America/Los_Angeles] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /Applications/317final/apache2/htdocs/app/register.php on line 32
+[17-May-2020 23:22:29 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/app/lib/common.php on line 94
+[18-May-2020 00:03:37 America/Los_Angeles] PHP Notice:  Undefined index: USER in /Applications/317final/apache2/htdocs/app/lib/common.php on line 94

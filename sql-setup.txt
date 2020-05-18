@@ -1,0 +1,53 @@
+CREATE TABLE vehicle(
+                        name varchar(50) NOT NULL,
+                        width DOUBLE NOT NULL,
+                        time DATETIME NOT NULL,
+                        PRIMARY KEY (name)
+);
+
+CREATE TABLE sessionRecords(
+                               sessionId varchar(36) NOT NULL,
+                               vName varchar(50) NOT NULL,
+                               created DATETIME NOT NULL,
+                               ended DATETIME,
+                               active boolean NOT NULL,
+                               PRIMARY KEY (sessionId),
+                               FOREIGN KEY (vName) REFERENCES vehicle (name)
+);
+
+CREATE table wheelRecords(
+    wid varchar(36) NOT NULL,
+    sessionId varchar(36) NOT NULL,
+    leftw DOUBLE NOT NULL,
+    rightw DOUBLE NOT NULL,
+    time DATETIME NOT NULL,
+    PRIMARY KEY(wid),
+    foreign key (sessionId) references sessionRecords(sessionId)
+);
+
+CREATE table echoRecords(
+                             eid varchar(36) NOT NULL,
+                             sessionId varchar(36) NOT NULL,
+                             echo DOUBLE NOT NULL,
+                             time DATETIME NOT NULL,
+                             PRIMARY KEY(eid),
+                             foreign key (sessionId) references sessionRecords(sessionId)
+);
+
+CREATE table lineRecords(
+                            lid varchar(36) NOT NULL,
+                            sessionId varchar(36) NOT NULL,
+                            lineData int NOT NULL,
+                            time DATETIME NOT NULL,
+                            PRIMARY KEY(lid),
+                            foreign key (sessionId) references sessionRecords(sessionId)
+);
+
+CREATE table otherRecords(
+                            oid varchar(36) NOT NULL,
+                            sessionId varchar(36) NOT NULL,
+                            data varchar(60) NOT NULL,
+                            time DATETIME NOT NULL,
+                            PRIMARY KEY(oid),
+                            foreign key (sessionId) references sessionRecords(sessionId)
+);
