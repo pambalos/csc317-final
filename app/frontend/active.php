@@ -11,6 +11,7 @@ $sessions = array();
 while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
     array_push($sessions, $row);
 }
+console_log($sessions);
 
 ?>
 
@@ -49,13 +50,13 @@ while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
 
             for ($i = 0; $i < sizeof($sessions); $i++) {
                 echo '<tr class="session" id ='. strval($sessions[$i]['sessionId']) .'>';
-                foreach (array_keys($sessions[0]) as $key) {
+                foreach (array_keys($sessions[$i]) as $key) {
                     if (strcasecmp($key, 'ended') != 0 && strcasecmp($key, 'time') != 0 && strcasecmp($key, 'vName') != 0) {
                         if (strcasecmp($key, 'active') == 0) {
-                            $out = $sessions[0][$key] ? 'true' : 'false';
+                            $out = $sessions[$i][$key] ? 'true' : 'false';
                             echo '<td>' . $out . '</td>';
                         } else {
-                            echo '<td>' . $sessions[0][$key] . '</td>';
+                            echo '<td>' . $sessions[$i][$key] . '</td>';
                         }
                     }
                 }

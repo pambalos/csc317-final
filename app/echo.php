@@ -12,7 +12,7 @@ $dist = doubleval($_GET['dist']);
 
 $sessionId = getActiveSessionId($db, $vehicle);
 
-$query = 'insert into echorecords value (UUID(),"' . $sessionId . '",' . $dist . ',' . timeSQLString($timems) . ')';
+$query = 'insert into echorecords value (UUID(),"' . $sessionId . '",' . $dist . ',' .$timems . ')';
 $result = mysqli_query($db, $query);
 if ($result == false) {
     echo json_encode(array("ERROR" => "Failed inserting Echo record", "query" => "" . $query . ""));

@@ -20,9 +20,30 @@ function filterByNames() {
     }
 }
 
-function filterByTimeRange() {
+function filterByTimeRange(index) {
+        let beforeTime = document.getElementById("beforeTime").value.replace("T", " ");
+        let afterTime = document.getElementById("afterTime").value.replace("T", " ");
 
-}
+        let table, tr, td, i, txtValue;
+
+        table = document.getElementById("myTable");
+        tr = table.getElementsByTagName("tr");
+
+        for (i = 0; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td")[index];
+            if (td) {
+                txtValue = td.textContent || td.innerText;
+                //console.log(txtValue);
+                if (txtValue.localeCompare(afterTime) >= 0 && txtValue.localeCompare(beforeTime) <= 0) {
+                    //console.log("In sweet spot");
+                    //console.log(afterTime + " < " + txtValue + " < " + beforeTime);
+                    tr[i].style.display = "";
+                } else {
+                    tr[i].style.display = "none";
+                }
+            }
+        }
+    }
 
 function filterByActive() {
     // Declare variables

@@ -1,3 +1,16 @@
+CREATE USER IF NOT EXISTS web@localhost IDENTIFIED BY 'final';
+DROP DATABASE IF EXISTS `final`;
+SET default_storage_engine=InnoDB;
+SET NAMES utf8mb4 COLLATE utf8mb4_unicode_ci;
+CREATE DATABASE IF NOT EXISTS GY2020
+    DEFAULT CHARACTER SET utf8mb4
+    DEFAULT COLLATE utf8mb4_unicode_ci;
+USE GY2020;
+GRANT SELECT, INSERT, UPDATE, DELETE, FILE ON *.* TO 'web'@'localhost';
+GRANT ALL PRIVILEGES ON `web`.* TO 'web'@'localhost';
+GRANT ALL PRIVILEGES ON ` final`.* TO 'web'@'localhost';
+FLUSH PRIVILEGES;
+
 CREATE TABLE vehicle(
                         name varchar(50) NOT NULL,
                         width DOUBLE NOT NULL,

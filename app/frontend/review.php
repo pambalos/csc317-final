@@ -25,6 +25,7 @@ while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
 <body>
 <br>
 <br>
+<a href="review.php">Home</a>
 <br>
 <div id="sessions-container">
     <?php
@@ -42,7 +43,7 @@ while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
 
     Started After: <input type="datetime-local" id="afterTime" name="afterTime"><br>
     Started Before: <input type="datetime-local" id="beforeTime" name="beforeTime">
-    <input type="button" value="Filter" onclick="filterByTimeRange()">
+    <input type="button" value="Filter" onclick="filterByTimeRange(3)">
     <br><br>
     <?php
     echo '<table id="myTable" style="border-radius: 5px; width: 80%; text-align: left;border-spacing: 0">';
@@ -104,44 +105,10 @@ while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
         afterDatetimeField.value = localDatetime;
     });
 
-    function filterByTimeRange() {
-        let beforeTime = document.getElementById("beforeTime").value.replace("T", " ");
-        let afterTime = document.getElementById("afterTime").value.replace("T", " ");
-        console.log(beforeTime);
-        console.log(afterTime);
-
-        let input, filter, table, tr, td, i, txtValue;
-
-        filter = beforeTime;
-        table = document.getElementById("myTable");
-        tr = table.getElementsByTagName("tr");
-
-        for (i = 0; i < tr.length; i++) {
-            td = tr[i].getElementsByTagName("td")[3]; //for created date
-            if (td) {
-                txtValue = td.textContent || td.innerText;
-                //console.log(txtValue);
-                if (txtValue.localeCompare(afterTime) >= 0 && txtValue.localeCompare(beforeTime) <= 0) {
-                    console.log("In sweet spot");
-                    console.log(afterTime + " < " + txtValue + " < " + beforeTime);
-                    tr[i].style.display = "";
-                } else {
-                    tr[i].style.display = "none";
-                }
-                /*
-                if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                    tr[i].style.display = "";
-                } else {
-                    tr[i].style.display = "none";
-                }*/
-            }
-        }
-    }
-
     var sessions = document.getElementsByClassName("session");
     for (let session of sessions) {
         document.getElementById(session['id']).addEventListener("click", function () {
-            console.log("picked up click");
+            //console.log("picked up click");
             window.location.href = "datareview.php?sessionId=" + session['id'];
         });
         document.getElementById(session['id']).addEventListener("mouseover", function () {
