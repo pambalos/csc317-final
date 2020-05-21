@@ -77,7 +77,7 @@ array_multisort($mid, SORT_DESC, $dataPoints);
                 transition: .4s;
             }
 
-            td{
+            td, th{
                 padding: 10px;
             }
 
@@ -185,12 +185,12 @@ array_multisort($mid, SORT_DESC, $dataPoints);
         printFieldOptions();
 
         function printFieldOptions() {
-            fields.push('time', 'vName', 'sessionId');
+            fields.push('time', 'vName', 'sessionId', 'created');
             let content ='';
             let div = document.getElementById("fieldOptions");
 
             for (let key of fields) {
-                console.log(key);
+                //console.log(key);
                 content += '<div>' + key + '</div>';
                 content += '<input type="checkbox" onchange="filterTableColumn(\'' + key + '\')" checked>&nbsp;&nbsp;&nbsp;';
             }

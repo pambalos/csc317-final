@@ -22,7 +22,7 @@ while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
     <script src="./js/FilterableTable.js"></script>
     <title>All Sessions</title>
     <style>
-        td{
+        td, th{
             padding: 10px;
         }
 

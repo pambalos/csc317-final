@@ -29,7 +29,7 @@ $r = ($vehicle['width']);
         <script src="./js/FilterableTable.js"></script>
         <title>Map</title>
         <style>
-            td{
+            td, th{
                 padding: 10px;
             }
 

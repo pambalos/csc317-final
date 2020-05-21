@@ -23,7 +23,7 @@ console_log($sessions);
     <script src="./js/FilterableTable.js"></script>
     <title>Active</title>
     <style>
-        td{
+        td, th{
             padding: 10px;
         }
 
@@ -91,7 +91,7 @@ console_log($sessions);
     var sessions = document.getElementsByClassName("session");
     for (let session of sessions) {
         document.getElementById(session['id']).addEventListener("click", function () {
-            console.log("picked up click");
+            //console.log("picked up click");
             window.location.href = "datareview.php?sessionId=" + session['id'];
         });
         document.getElementById(session['id']).addEventListener("mouseover", function () {
