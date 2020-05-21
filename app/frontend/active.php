@@ -22,10 +22,24 @@ console_log($sessions);
     <link rel="stylesheet" type="text/css" href="static/styles.css">
     <script src="./js/FilterableTable.js"></script>
     <title>Active</title>
+    <style>
+        td{
+            padding: 10px;
+        }
+
+        table {
+            border-radius: 5px;
+            width: 90%;
+            text-align: left;
+            border-spacing: 0;
+        }
+    </style>
 </head>
 <body>
+
     <br>
     <br>
+    <a href="review.php">Home</a>
     <br>
     <div id="sessions-container">
         <?php
@@ -42,7 +56,7 @@ console_log($sessions);
 
             echo '<tr class="header">';
             foreach (array_keys($sessions[0]) as $key) {
-                if (strcasecmp($key, 'ended') != 0 && strcasecmp($key, 'time') != 0 && strcasecmp($key, 'vName') != 0) {
+                if (strcasecmp($key, 'ended') != 0 && strcasecmp($key, 'vName') != 0) {
                     echo '<th>' . $key . '</th>';
                 }
             }
@@ -51,7 +65,7 @@ console_log($sessions);
             for ($i = 0; $i < sizeof($sessions); $i++) {
                 echo '<tr class="session" id ='. strval($sessions[$i]['sessionId']) .'>';
                 foreach (array_keys($sessions[$i]) as $key) {
-                    if (strcasecmp($key, 'ended') != 0 && strcasecmp($key, 'time') != 0 && strcasecmp($key, 'vName') != 0) {
+                    if (strcasecmp($key, 'ended') != 0 && strcasecmp($key, 'vName') != 0) {
                         if (strcasecmp($key, 'active') == 0) {
                             $out = $sessions[$i][$key] ? 'true' : 'false';
                             echo '<td>' . $out . '</td>';

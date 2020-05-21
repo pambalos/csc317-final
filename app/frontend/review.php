@@ -21,11 +21,23 @@ while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
     <link rel="stylesheet" type="text/css" href="static/styles.css">
     <script src="./js/FilterableTable.js"></script>
     <title>All Sessions</title>
+    <style>
+        td{
+            padding: 10px;
+        }
+
+        table {
+            border-radius: 5px;
+            width: 90%;
+            text-align: left;
+            border-spacing: 0;
+        }
+    </style>
 </head>
 <body>
 <br>
 <br>
-<a href="review.php">Home</a>
+<a href="active.php">Active Sessions</a>
 <br>
 <div id="sessions-container">
     <?php
@@ -46,11 +58,11 @@ while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
     <input type="button" value="Filter" onclick="filterByTimeRange(3)">
     <br><br>
     <?php
-    echo '<table id="myTable" style="border-radius: 5px; width: 80%; text-align: left;border-spacing: 0">';
+    echo '<table id="myTable">';
     if (!empty($sessions)) {
         echo '<tr>';
         foreach (array_keys($sessions[0]) as $key) {
-            if (strcasecmp($key, 'vName') != 0 && strcasecmp($key, 'time') != 0) {
+            if (strcasecmp($key, 'vName') != 0) {
                 echo '<th>' . $key . '</th>';
             }
         }
@@ -59,7 +71,7 @@ while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
         for ($i = 0; $i < sizeof($sessions); $i++) {
             echo '<tr class="session" id ='. strval($sessions[$i]['sessionId']) .'>';
             foreach (array_keys($sessions[$i]) as $key) {
-                if (strcasecmp($key, 'vName') != 0 && strcasecmp($key, 'time') != 0) {
+                if (strcasecmp($key, 'vName') != 0 ) {
                     if (strcasecmp($key, 'active') == 0) {
                         $out = ($sessions[$i][$key]) ? 'true' : 'false';
                         echo '<td>' . $out . '</td>';

@@ -28,6 +28,18 @@ $r = ($vehicle['width']);
         <link rel="stylesheet" type="text/css" href="static/styles.css">
         <script src="./js/FilterableTable.js"></script>
         <title>Map</title>
+        <style>
+            td{
+                padding: 10px;
+            }
+
+            table {
+                border-radius: 5px;
+                width: 90%;
+                text-align: left;
+                border-spacing: 0;
+            }
+        </style>
     </head>
     <body>
         <br>

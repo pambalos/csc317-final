@@ -1,4 +1,11 @@
 <?php
+
+define('DB_HOST', "localhost");
+define('DB_PORT', "3308");
+define('DB_USER', "web");
+define('DB_PASS', "final");
+define('DB_SCHEMA', "final");
+
 if (!isset($_SESSION)) {
     session_start();
 }
@@ -36,12 +43,6 @@ if($showQueries){
     array_push($query_msg, "<b>Current filename: ". $current_filename . "</b>"); 
 }
 
-define('DB_HOST', "localhost");
-define('DB_PORT', "3308");
-define('DB_USER', "web");
-define('DB_PASS', "final");
-define('DB_SCHEMA', "final");
-
 $db = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_SCHEMA, DB_PORT);
 
 if (mysqli_connect_errno())
@@ -67,10 +68,6 @@ function getActiveSessionId($db, $vehicle) {
     $session = mysqli_fetch_array($result);
     $sessionId = $session['sessionId'];
     return $sessionId;
-}
-
-function timeSQLString($timems) {
-    return 'NOW() + INTERVAL '. $timems . ' microsecond';
 }
 
 function getSuccessMessage() {

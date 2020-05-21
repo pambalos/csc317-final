@@ -77,6 +77,17 @@ array_multisort($mid, SORT_DESC, $dataPoints);
                 transition: .4s;
             }
 
+            td{
+                padding: 10px;
+            }
+
+            table {
+                border-radius: 5px;
+                width: 90%;
+                text-align: left;
+                border-spacing: 0;
+            }
+
             .slider:before {
                 position: absolute;
                 content: "";
@@ -152,8 +163,8 @@ array_multisort($mid, SORT_DESC, $dataPoints);
             </div>
             <div id="fieldOptions" style="display: flex;"></div>
             <br>
-            <input type="button" value="Sort Time" onclick="sortTable(0)"><br><br>
-            <table id="myTable" style="border-radius: 5px; width: 80%; text-align: left;border-spacing: 0">
+            <input type="button" value="Sort on Time" onclick="sortTable(0)">&nbsp;&nbsp;&nbsp;<input type="button" value="Sort on Created" onclick="sortTable(1)"><br><br>
+            <table id="myTable">
             </table>
         </div>
     <script>
@@ -234,12 +245,13 @@ array_multisort($mid, SORT_DESC, $dataPoints);
             //console.log(value['time']);
             content += '<tr onmouseover="lightUp(this)" onmouseout="lightDown(this)">';
             content += '<td>'+ 'time: <br>' + value['time'] + '</td>';
+            content += '<td>'+ 'created: <br>' + value['created'] + '</td>';
             content += '<td>'+ 'vName: <br>' + value['vName'] + '</td>';
             content += '<td>'+ 'sessionId: <br>' + value['sessionId'] + '</td>';
 
             for (let data in value) {
                 //console.log(value[data]);
-                if (data !== 'time' &&  data !== 'vName' && data !== 'sessionId') {
+                if (data !== 'time' &&  data !== 'vName' && data !== 'sessionId' && data !== 'created') {
                     if (!fields.includes(data.toString())) fields.push(data.toString());
                     content += '<td>';
                     content += data + ': <br>' + value[data];

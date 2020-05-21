@@ -5,7 +5,7 @@ include('lib/show_queries.php');
 include('lib/error.php');
 
 $vehicle = $_COOKIE['USER'];
-$timems = timeSQLString($_GET['time']);
+$timems = $_GET['time'];
 $error = '';
 
 $sessionId = getActiveSessionId($db, $vehicle);

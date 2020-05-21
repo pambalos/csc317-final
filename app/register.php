@@ -5,7 +5,7 @@ include('lib/show_queries.php');
 include('lib/error.php');
 
 $vehicle = $_COOKIE['USER'];
-$timems = timeSQLString($_GET['time']);
+$timems = $_GET['time'];
 $error = '';
 
 $name = $_GET['name'];
@@ -19,7 +19,7 @@ $count = mysqli_num_rows($response);
 
 if ($count < 1) {
     //no vehicle, create one
-    $query = 'insert into vehicle value ("' . $name . '",' . $width . ', NOW() + MICROSECOND('. $timems . '))';
+    $query = 'insert into vehicle value ("' . $name . '",' . $width . ','. $timems . ', NOW())';
     $res = mysqli_query($db, $query);
     if ($res == false) {
         echo json_encode(array("ERROR" => "vehicle insert failed"));
@@ -37,7 +37,7 @@ if (($count = mysqli_num_rows($res)) > 0) {
     while (($row = mysqli_fetch_array($res))) {
         if ($row['active'] == true) {
             //found active session, set as deactive
-            $query = 'update sessionrecords set active = false, ended = '. $timems . ' where vName = "' . $name .'" and active = true';
+            $query = 'update sessionrecords set active = false, ended = NOW() where vName = "' . $name .'" and active = true';
             $res2 = mysqli_query($db, $query);
             if ($res2 == false) {
                 echo json_encode(array("ERROR" => "update session Failed"));
@@ -46,7 +46,7 @@ if (($count = mysqli_num_rows($res)) > 0) {
     }
 }
 
-$query = 'insert into sessionrecords value (UUID(),' . '"' . $name . '",'. $timems . ', null, true)';
+$query = 'insert into sessionrecords value (UUID(),' . '"' . $name . '",'. $timems . ', NOW(), null, true)';
 $res = mysqli_query($db, $query);
 if ($res == false) {
     echo json_encode(array("ERROR" => "create session Failed", "query" => $query));
